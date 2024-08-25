@@ -1,10 +1,11 @@
-﻿blinker==1.8.2
+blinker==1.8.2
 click==8.1.7
 colorama==0.4.6
-Flask==3.0.3
+Flask==2.3.4   # Use the latest stable version or the version required by your project
 itsdangerous==2.2.0
 Jinja2==3.1.4
 MarkupSafe==2.1.5
-Werkzeug==3.0.4
+Werkzeug==2.3.4   # Match the Flask version; update if needed
 gunicorn==20.1.1
 flask-cors==3.0.10
+
