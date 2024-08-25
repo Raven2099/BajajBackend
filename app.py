@@ -4,9 +4,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/', methods=['GET'])
-def index():
-    return jsonify({"message": "Welcome to the API!"})
 
 @app.route('/bfhl', methods=['POST'])
 def handle_post():
