@@ -40,7 +40,7 @@ def handle_post():
 
     return jsonify(response), 200
 
-@app.route('/bfhl', methods=['GET'])
+@app.route('/', methods=['GET'])
 def handle_get():
     return jsonify({"operation_code": 1}), 200
 
