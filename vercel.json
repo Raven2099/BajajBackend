@@ -8,10 +8,6 @@
   ],
   "routes": [
     {
-      "src": "/bfhl",
-      "dest": "/app.py"
-    },
-    {
       "src": "/",
       "dest": "/app.py"
     }
