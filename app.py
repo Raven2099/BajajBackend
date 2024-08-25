@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/bfhl', methods=['POST'])
+@app.route('/', methods=['POST'])
 def handle_post():
     data = request.get_json()
 
